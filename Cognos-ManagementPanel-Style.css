@@ -1,0 +1,316 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> </link>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></link>
+
+<style>
+.topRow{
+	display: none; 
+}
+
+button.mc_3352189776{
+	display: inline-block;
+	border-radius: 0px;
+	background-color: #99D1C8;
+	border: none;
+	border-radius:12px;
+	text-align: center;
+	font-size: 10px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	box-shadow: 5px 5px 4px #888888;
+	
+}
+
+button.mc_3352189776 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button.mc_3352189776 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -25px;
+  transition: 0.5s;
+ 
+}
+button.mc_3352189776:hover span {
+  padding-right: 25px;
+  opacity: 1;
+ 
+}
+
+button.mc_3352189776:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+:not(.tit2){
+     -webkit-animation-name: colorchange; 
+     -webkit-animation-duration:2s;
+      animation-name: colorchange;
+      animation-duration:2s;	  
+}
+
+.tit2{
+	font-weight: bold;
+	font-size:13pt;
+	font-family:Arial;
+	margin-top:1px;
+	margin-bottom:1px;
+	-webkit-animation-name: pSlide; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+	animation-name: pSlide;
+	animation-duration: 3s;
+	position: relative;
+	left:115px;
+}
+
+h1.tit{
+	font-family:Arial;
+	margin-top:0px;
+	margin-bottom:0px;
+	left:500px;
+	position:relative;
+	color: white;
+	-webkit-animation-name: titleSlide; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+	animation-name: titleSlide;
+	animation-duration: 3s;
+}
+
+.tit3{
+	-webkit-animation-name: sideInfoSlide; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+	animation-name: sideInfoSlide;
+	animation-duration: 3s;
+	position: relative;
+}
+
+.tit4{
+	-webkit-animation-name: sideInfoSlide; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+	animation-name: sideInfoSlide;
+	animation-duration: 3s;
+	position: relative;
+}
+
+.tit5{
+	-webkit-animation-name: sideInfoSlide; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+	animation-name: sideInfoSlide;
+	animation-duration: 3s;
+	position: relative;
+}
+
+.tit6{
+	-webkit-animation-name: sideInfoSlide; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+	animation-name: sideInfoSlide;
+	animation-duration: 3s;
+	position: relative;
+}
+
+.dot {
+  height: 56px;
+  width: 56px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid #99D1C8;
+ }
+
+.dot_1 {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid #99D1C8;
+ }
+
+div.rounded{
+  border-radius: 8px 25px 15px;
+  background: #3F5064;
+  width: 348px;
+  border: 1px solid;
+  border-color: #3F5064;
+  box-shadow: 3px 7px 4px #888888;
+
+}
+
+div.rounded_1{
+  border-radius: 8px 25px 15px;
+  background: #00A091;
+  width: 348px;
+  height:46px;
+  border: 1px solid;
+  border-color: #00A091;
+  box-shadow: 3px 7px 4px #888888;
+
+}
+
+div.rounded_2{
+  border-radius: 8px 25px 15px;
+  background: #F9D825;
+  width: 348px;
+  border: 1px solid;
+  border-color: #F9D825;
+  box-shadow: 3px 7px 4px #888888;
+
+}
+
+div.rounded_3{
+  border-radius: 8px 25px 15px;
+  background: #FC6E4D;
+  width: 348px;
+  border: 1px solid;
+  border-color: #FC6E4D;
+  box-shadow: 3px 7px 4px #888888;
+
+}
+
+div.rounded_4{
+  border-radius: 8px 25px 15px;
+  background: black;
+  width: 348px;
+  border: 1px solid;
+  border-color: black;
+  box-shadow: 3px 7px 4px #888888;
+}
+
+div.rounded_5{
+  border-radius: 8px 25px 15px;
+  background: #fca001;
+  width: 348px;
+  border: 1px solid;
+  border-color: #fca001;
+  box-shadow: 3px 7px 4px #888888;
+}
+
+div.rounded_6{
+  border-radius: 8px 25px 15px;
+  background: #00A091;
+  width: 348px;
+  height:58px;
+  border: 1px solid;
+  border-color: #00A091;
+  box-shadow: 3px 7px 4px #888888;
+
+}
+
+/* Slide do titulo*/
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes titleSlide {
+  0%     {left:-500px; top:0px;}
+  100% {left:500px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes titleSlide {
+  0%     { left:-500px; top:0px;}
+  100% { left:500px; top:0px;}
+}
+
+/* Slide do Subtitulo*/
+@-webkit-keyframes pSlide {
+  0%     {left:-500px; top:0px;color: white;}
+  100% {left:115px; top:0px;color: white;}
+}
+
+/* Standard syntax */
+@keyframes pSlide {
+  0%     { left:-500px; top:0px;color: white;}
+  100% { left:115px; top:0px;color: white;}
+}
+
+/* Fade in Font*/
+@-webkit-keyframes colorchange {
+     0% {
+        
+        color: transparent;
+      }
+      
+      25% {
+        
+        color: #95AFB1;
+      }
+      
+      50% {
+        
+        color: #4A777B;
+      }
+      
+      75% {
+     
+        color: #003641;
+      }
+      
+      100% {
+        
+        color: black;
+      }
+}
+
+@keyframes colorchange {
+      0% {
+        
+        color: transparent;
+      }
+      
+      25% {
+        
+        color: #95AFB1;
+      }
+      
+      50% {
+        
+        color: #4A777B;
+      }
+      
+      75% {
+     
+        color: #003641;
+      }
+      
+      100% {
+        
+        color: black;
+      }
+    }
+
+@-webkit-keyframes sideInfoSlide {
+  0%     {right:-5000px; top:0px;}
+  100% { top:0px;}
+}
+
+/* Standard syntax */
+@keyframes sideInfoSlide {
+  0%     { right:-5000px; top:0px;}
+  100% { top:0px;}
+}
+
+div.pop{
+ display:none;
+ position:absolute;
+ padding:10px;
+ border:2px solid #d0d0d0;
+ background-color: white;
+ z-index:100;
+
+}
+
+i{
+	font-size:26pt;
+	color:black;
+}
+
+i:hover {
+	font-size:30pt;
+	color:#95AFB1;
+}
+
+</style>

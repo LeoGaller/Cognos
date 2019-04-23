@@ -1,0 +1,87 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+button.mc_3352189776 {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #99D1C8;
+	border: none;
+	text-align: center;
+	font-size: 10px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	box-shadow: 5px 5px 4px #888888;
+	
+}
+
+button.mc_3352189776 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button.mc_3352189776 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -25px;
+  transition: 0.5s;
+ 
+}
+button.mc_3352189776:hover span {
+  padding-right: 25px;
+  opacity: 1;
+ 
+}
+
+button.mc_3352189776:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext::after { /* This one is for the seta*/
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 100%; /* To the right of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent white;
+}
+
+.hit-the-floor {
+padding-left:10px;
+color: #fff;
+font-size: 22px;
+font-family: Arial;
+text-shadow: 0 0px 0 #ccc, 0 0px 0 #c9c9c9, 0 1px 0 #bbb, 0 1px 0 #b9b9b9, 0 1px 0 #aaa, 0 1px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 20px rgba(0,0,0,.3), 0 1px 10px rgba(0,0,0,.2), 0 10px 20px rgba(0,0,0,.25), 0 40px 40px rgba(0,0,0,.2), 0 40px 40px rgba(0,0,0,.15);
+
+}
+</style>
